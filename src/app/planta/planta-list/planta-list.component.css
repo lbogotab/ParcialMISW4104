@@ -1,0 +1,28 @@
+.title{
+    font-family: "Kaisei Decol", serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.table{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.table-title{
+    font-weight: bold;
+    padding: 15px 6px;
+    background-color: #333A40;
+    color: white;
+}
+
+.table-id{
+    font-weight: bold;
+}
+
+.data-count{
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}

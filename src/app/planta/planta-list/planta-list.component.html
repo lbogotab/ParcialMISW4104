@@ -1,0 +1,34 @@
+<div class="container">
+  <p class="title">Vivero El Otoño</p>
+  <hr>
+  <img src="assets/Vivero.png" alt="Viviero El Otoño">
+  <hr>
+  <div class="col-6">
+    <table class="table">
+      <thead>
+        <th class="table-title">#</th>
+        <th class="table-title">Nombre Común</th>
+        <th class="table-title">Tipo</th>
+        <th class="table-title">Clima</th>
+        <tr *ngFor="let p of plantas">
+          <td class="table-id">
+            <dd>{{p.id}}</dd>
+          </td>
+          <td class="table-other">
+            <dd>{{p.nombre_comun}}</dd>
+          </td>
+          <td class="table-other">
+            <dd>{{p.tipo}}</dd>
+          </td>
+          <td class="table-other">
+            <dd>{{p.clima}}</dd>
+          </td>
+        </tr>
+      </thead>
+    </table>
+    <div class="data-count">
+      <p><strong>Total plantas de Interior:</strong> {{interiorCount}}</p>
+      <p><strong>Total plantas de Exterior:</strong> {{exteriorCount}}</p>
+    </div>
+  </div>
+  </div>
